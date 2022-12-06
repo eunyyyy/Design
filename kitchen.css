@@ -1,0 +1,146 @@
+header h1 a {
+    color: black;
+}
+main {
+    width: inherit;
+    position: relative;
+    /* border: 1px solid red; */
+    margin: 20px 0 20px 0;
+    top: 100px;
+    font-size: 34px;
+    color: rgb(6, 57, 87);
+}
+/* items */
+#items{
+    position: relative;
+    top: 100px;
+    height: 680px;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background:url(img/img03.webp) no-repeat;
+    background-size: cover;
+    float: left;
+    margin : 12.2px;
+    cursor: pointer;
+    /* border: 1px solid red;     */
+}
+.box1 p {
+    position: relative;
+    top:210px;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background:url(img/img02.jpg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin : 12.2px;
+    cursor: pointer;
+    /* border: 1px solid red;     */
+}
+.box2 p {
+    position: relative;
+    top:210px;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background:url(img/img17.jpg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin : 12.2px;
+    cursor: pointer;
+    color: black;
+    /* border: 1px solid red;     */
+}
+.box3 p {
+    position: relative;
+    top:210px;
+}
+
+.box4{
+    width: 200px;
+    height: 200px;
+    background:url(img/img08.webp) no-repeat;
+    background-size: cover;
+    float: left;
+    margin : 12.2px;
+    cursor: pointer;
+    /* border: 1px solid red;     */
+}
+.box4 p {
+    position: relative;
+    top:210px;
+}
+
+.box5{
+    width: 200px;
+    height: 200px;
+    background:url(img/img06.jpg) no-repeat;
+    background-size: cover;
+    position : relative;
+    top : 50px;
+    float: left;
+    margin : 12.2px;
+    cursor: pointer;
+    /* border: 1px solid red;     */
+}
+.box5 p {
+    position: relative;
+    top:210px;
+}
+
+.box6{
+    width: 200px;
+    height: 200px;
+    background:url(img/img14.webp) no-repeat;
+    background-size: cover;
+    position : relative;
+    top : 50px;
+    float: left;
+    margin : 12.2px;
+    cursor: pointer;
+    /* border: 1px solid red;     */
+}
+.box6 p {
+    position: relative;
+    top:210px;
+}
+
+.box7{
+    width: 200px;
+    height: 200px;
+    background:url(img/img07.webp) no-repeat;
+    background-size: cover;
+    position : relative;
+    top : 50px;
+    float: left;
+    margin : 12.2px;
+    cursor: pointer;
+    /* border: 1px solid red;     */
+}
+.box7 p {
+    position: relative;
+    top:210px;
+}
+
+.box8{
+    width: 200px;
+    height: 200px;
+    background:url(img/img12.webp) no-repeat;
+    background-size: cover;
+    position : relative;
+    top : 50px;
+    float: left;
+    margin : 12.2px;
+    cursor: pointer;
+    /* border: 1px solid red;     */
+}
+.box8 p {
+    position: relative;
+    top:210px;
+}

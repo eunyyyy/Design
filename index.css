@@ -1,0 +1,244 @@
+/* 구조화 */
+#wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* border: 1px solid red; */
+    /* background:#ccc */
+}
+
+body{
+    background: #ddedf0;
+}
+/* 상단공간 2022-11-18*/
+header {
+    background: #fdfdfd;
+    box-shadow: 0 3px 8px rgba(144, 152, 184, 0.6);
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+    width: inherit;
+    height: 90px;
+    z-index: 2000;
+}
+/* 너비값을 부모요소에서 그대로 받아오는 inherit */
+header h1 a {
+    color: black;
+}
+
+h1 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+nav {
+    position: absolute;
+    right: 50px;
+    top: 18px;
+}
+
+nav li a:hover {
+    color:#2c3c3f;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* 메인내용 */
+main {
+    width: inherit;
+    height: 340px;
+    position: absolute;
+    top: 100px;
+    background: url(img/img04.jpg) no-repeat right -40px;
+    background-color: #80a6ad;
+}
+main h2 {
+    color: #405357;
+    width: 200px;
+    font-size: 34px;
+    padding: 35px 20px 0
+}
+main p {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #405357;
+    padding: 35px 20px 0;
+}
+
+
+/* section 첫번째 공간*/
+#list01 {
+    /* 시작되는 위치값을 margin으로 처리 */
+    margin-top: 450px;
+}
+
+#layout1 {
+    background: url(img/img10.webp);
+    width: 300px;
+    height: 580px;
+    background-size: cover;
+    float: left;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#layout2 {
+    width: 300px;
+    float: left;
+}
+#layout2 .img_style1 {
+    background: url(img/img07.webp);
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 10px 20px;
+    cursor: pointer;
+
+}
+#layout2 .img_style2 {
+    background: url(img/img14.webp);
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+#layout3 {
+    width: 300px;
+    float: left;
+}
+#layout3 .img_title {
+    background: #80a6ad;
+    width: 280px;
+    height: 120px;
+    line-height: 120px;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 20px 20px;
+}
+#layout3 .img_style3 {
+    background: url(img/img12.webp);
+    background-size: cover;
+    width: 280px;
+    height: 440px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+/* section 두번째 공간 */
+/* 
+위치값 생략 
+#list02 {}
+*/
+
+#list02 #layout3 {
+    width: 300px;
+    float: left;
+}
+#list02 #layout3 .img_title {
+    background: #80a6ad;
+    width: 300px;
+    height: 120px;
+    line-height: 120px;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 20px 20px 0;
+}
+#list02 #layout3 .img_style3 {
+    background: url(img/img03.webp);
+    background-size: cover;
+    width: 300px;
+    height: 440px;
+    margin: 10px 20px 20px 0;
+}
+
+#list02 #layout1 {
+    background: url(img/img02.jpg);
+    width: 280px;
+    height: 580px;
+    background-size: cover;
+    float: left;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+}
+
+#list02 #layout2 .img_style1 {
+    background: url(img/img05.webp);
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 0 20px;
+}
+#list02 #layout2 .img_style2 {
+    background: url(img/img08.webp);
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+}
+
+
+/* section 세번째 공간 */
+#list03 #layout1 {
+    background: url(img/img01.webp);
+    width: 300px;
+    height: 580px;
+    background-size: cover;
+    float: left;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#list03 #layout2 {
+    width: 300px;
+    float: left;
+}
+#list03 #layout2 .img_style1 {
+    background: url(img/img13.webp);
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 10px 20px;
+}
+#list03 #layout2 .img_style2 {
+    background: url(img/img11.webp);
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+}
+
+
+#list03 #layout3 {
+    width: 300px;
+    float: left;
+}
+#list03 #layout3 .img_title {
+    background: #80a6ad;
+    width: 280px;
+    height: 120px;
+    line-height: 120px;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 20px 20px;
+}
+#list03 #layout3 .img_style3 {
+    background: url(img/img15.webp);
+    background-size: cover;
+    width: 280px;
+    height: 440px;
+    margin: 20px;
+}

@@ -1,0 +1,70 @@
+/* 1번째 공간 */
+main {
+    /* border: 1px solid red; */
+    width: inherit;
+    /* height: 340px; */
+    position: relative;
+    top: 100px;
+}
+header h1 a {
+    color: black;
+}
+h2 {
+    /* border: 1px solid red; */
+    color: #405357;
+    width: 200px;
+    font-size: 34px;
+    padding: 35px 20px 0 0;
+}
+hr {
+    width: 100%;
+    margin: 20px 0 0 0;
+    border-color: #768d91;
+    border-style: dashed;
+}
+
+main p {
+    /* border: 1px solid red; */
+    width: 400px;
+    text-align: justify;
+    float: left;
+    margin-top: 20px;
+    /* padding: 0 20px 0 0; */
+}
+main #img {
+    /* border: 1px solid red; */
+    width: 456px;
+    height: 400px;
+    margin-top: 20px;
+    background: url(img/img04.jpg);
+    background-size: cover;
+    float: right;
+}
+
+/* 2번째 공간 */
+section {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: 90px;
+    clear: both;
+}
+
+section h2 {
+    /* border: 1px solid red; */
+    color: #405357;
+    width: 200px;
+    font-size: 34px;
+    padding: 35px 20px 0 0;
+    margin-bottom: 20px;
+}
+section #left, #right {
+    width: 420px;
+    text-align: justify;
+    padding: 20px 20px 0 0;
+    float: left;
+}
+section b {
+    margin: 20px 0;
+}

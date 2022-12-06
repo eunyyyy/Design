@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #999
+}
+
+/* 구조화 */
+#wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* border: 1px solid red; */
+    /* background:#ccc */
+}
+
+body{
+    background: #eaf0f1;
+}
+/* 상단공간 2022-11-18*/
+header {
+    background: #fdfdfd;
+    box-shadow: 0 3px 8px rgba(144, 152, 184, 0.6);
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+    width: inherit;
+    height: 90px;
+    z-index: 2000;
+}
+/* 너비값을 부모요소에서 그대로 받아오는 inherit */
+
+
+h1 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+nav {
+    position: absolute;
+    right: 50px;
+    top: 18px;
+}
+
+nav li a:hover {
+    color:#2c3c3f;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* footer */
+/* footer 첫번째 공간 */
+footer {
+    background: #607d82;
+    height: 200px;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    color: white;
+}
+footer li:nth-child(1) {
+    width: 160px;
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+footer li:nth-child(1) p img {
+    width: 25px;
+    margin: 15px 10px;
+}
+
+/* footer 두번째 공간 */
+footer li:nth-child(2) {
+    width: 200px;
+    float: left;
+    position: absolute;
+    left: 260px;
+    top: 20px;
+    /* text-align: center; */
+}
+footer li:nth-child(2) p img {
+    width: 25px;
+    margin: 15px 10px;
+}
+
+/* footer 세번째 공간 */
+footer li:nth-child(3) {
+    /* width: 500px; */
+    float: left;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+footer input, ::placeholder{
+    width: 290px;
+    height: 15px;
+    padding: 5px;
+    margin: 10px 0 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+footer button{
+    width: 300px;
+    background: rgb(6, 57, 87);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+footer .copy{
+    position: absolute;
+    bottom: 0px;
+    background: rgb(6, 57, 87);
+    /* #5e5e5e */
+    width: 97.8%;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
